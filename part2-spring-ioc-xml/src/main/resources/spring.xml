@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDaoImpl" class="com.larscheng.www.dao.impl.UserDaoImpl"/>
+    <bean id="userDaoMysqlImpl" class="com.larscheng.www.dao.impl.UserDaoMysqlImpl"/>
+    <bean id="userDaoRedisImpl" class="com.larscheng.www.dao.impl.UserDaoRedisImpl"/>
+
+    <bean id="iocUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+        <property name="userDao" ref="userDaoImpl"/>
+    </bean>
+
+    <bean id="iocMysqlUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+        <property name="userDao" ref="userDaoMysqlImpl"/>
+    </bean>
+
+    <bean id="iocRedisUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+        <property name="userDao" ref="userDaoRedisImpl"/>
+    </bean>
+</beans>
