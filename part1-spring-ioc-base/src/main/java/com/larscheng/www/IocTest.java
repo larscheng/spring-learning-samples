@@ -16,14 +16,14 @@ import com.larscheng.www.service.impl.NormalUserServiceImpl;
  */
 public class IocTest {
     public static void main(String[] args) {
-        UserService userService = new IocUserServiceImpl();
+        IocUserServiceImpl userService = new IocUserServiceImpl();
         //调用方指定要调用的实现类，将对象的创建控制权交由调用方
 
-        ((IocUserServiceImpl) userService).setUserDao(new UserDaoMysqlImpl());
+        userService.setUserDao(new UserDaoMysqlImpl());
         userService.getUser();
-        ((IocUserServiceImpl) userService).setUserDao(new UserDaoRedisImpl());
+        userService.setUserDao(new UserDaoRedisImpl());
         userService.getUser();
-        ((IocUserServiceImpl) userService).setUserDao(new UserDaoImpl());
+        userService.setUserDao(new UserDaoImpl());
         userService.getUser();
 
 

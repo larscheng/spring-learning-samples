@@ -4,8 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--不管你用不用，项目启动就被spring初始化，并管理-->
-
     <!--
         一个bean相当于一个对象
         id:对象名

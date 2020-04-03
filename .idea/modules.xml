@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/part1-spring-ioc-base/part1-spring-ioc-base.iml" filepath="$PROJECT_DIR$/part1-spring-ioc-base/part1-spring-ioc-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part2-spring-ioc-xml/part2-spring-ioc-xml.iml" filepath="$PROJECT_DIR$/part2-spring-ioc-xml/part2-spring-ioc-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part3-spring-di/part3-spring-di.iml" filepath="$PROJECT_DIR$/part3-spring-di/part3-spring-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part4-spring-bean-injection/part4-spring-bean-injection.iml" filepath="$PROJECT_DIR$/part4-spring-bean-injection/part4-spring-bean-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-learning-samples.iml" filepath="$PROJECT_DIR$/spring-learning-samples.iml" />
+    </modules>
+  </component>
+</project>

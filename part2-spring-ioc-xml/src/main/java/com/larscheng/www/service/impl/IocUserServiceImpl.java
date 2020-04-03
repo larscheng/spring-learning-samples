@@ -17,6 +17,10 @@ public class IocUserServiceImpl implements UserService {
      * **/
     private UserDao userDao;
 
+    /***
+     * set方法  在xml中通过property ref配置，注入
+     * @param userDao
+     */
     public void setUserDao(UserDao userDao) {
         this.userDao = userDao;
     }

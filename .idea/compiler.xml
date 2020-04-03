@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="part3-spring-di" />
+        <module name="part2-spring-ioc-xml" />
+        <module name="part1-spring-ioc-base" />
+        <module name="part4-spring-bean-injection" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="part1-spring-ioc-base" target="8" />
+      <module name="part2-spring-ioc-xml" target="8" />
+      <module name="part3-spring-di" target="8" />
+      <module name="part4-spring-bean-injection" target="8" />
+      <module name="spring-learning-samples" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

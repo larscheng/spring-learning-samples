@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="famous-school" class="com.larscheng.www.pojo.School">
+        <property name="name" value="清华大学"/>
+        <property name="address" value="北京"/>
+    </bean>
+    <bean id="zhangsan" class="com.larscheng.www.pojo.Student">
+
+        <property name="name" value="zhangsan"/>
+
+        <property name="school" ref="famous-school"/>
+
+        <property name="age" value="20"/>
+
+        <property name="books">
+            <array>
+                <value>语文书</value>
+                <value>数学书</value>
+                <value>英语书</value>
+            </array>
+        </property>
+
+        <property name="hobbies">
+            <list>
+                <value>唱</value>
+                <value>跳</value>
+                <value>篮球</value>
+            </list>
+        </property>
+
+        <property name="friends">
+            <set>
+                <value>李四</value>
+                <value>王五</value>
+            </set>
+        </property>
+
+        <property name="favourites">
+            <map>
+                <entry key="最喜欢" value="hahha"/>
+                <entry key="喜欢" value="eeee"/>
+            </map>
+        </property>
+
+        <property name="love">
+            <null/>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="no">003390</prop>
+                <prop key="sex">man</prop>
+            </props>
+        </property>
+    </bean>
+
+
+</beans>

@@ -13,8 +13,8 @@ import com.larscheng.www.service.UserService;
 public class IocUserServiceImpl implements UserService {
 
     /**
-     * 此处通过new来引入dao层实现，由程序员写死
-     * 如果要切换到mysql、redis、其他实现，需要修改代码
+     * 此处通过set方法来引入dao层实现
+     * 如果要切换到mysql、redis、其他实现，只需要set传入不同的类即可，控制权交给调用方
      * **/
     private UserDao userDao;
 

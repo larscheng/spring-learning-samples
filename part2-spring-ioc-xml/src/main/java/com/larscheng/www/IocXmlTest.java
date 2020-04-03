@@ -14,9 +14,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class IocXmlTest {
     public static void main(String[] args) {
 
-        //ioc容器获取对象
+        //ioc容器获取对象  获取spring的上下文对象
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-
+        //对象都在spring中管理，如果要使用，直接从IOC容器中拿出来
         UserService iocUserService = (UserService) context.getBean("iocUserService");
         UserService iocMysqlUserService = (UserService) context.getBean("iocMysqlUserService");
         UserService iocRedisUserService = (UserService) context.getBean("iocRedisUserService");

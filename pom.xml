@@ -11,6 +11,8 @@
     <modules>
         <module>part1-spring-ioc-base</module>
         <module>part2-spring-ioc-xml</module>
+        <module>part3-spring-di</module>
+        <module>part4-spring-bean-injection</module>
     </modules>
 
     <dependencies>
