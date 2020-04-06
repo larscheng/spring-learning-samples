@@ -8,9 +8,16 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!-- 开启自动注入注解支持   -->
     <context:annotation-config/>
 
-    <bean id="son" class="com.larscheng.www.pojo.Son" p:name="liang"/>
-    <bean id="daughter" class="com.larscheng.www.pojo.Daughter" p:name="kang"/>
-    <bean id="liming" class="com.larscheng.www.pojo.AutowiredPerson" p:name="liming"/>
+    <bean id="son" class="com.larscheng.www.pojo.Son" p:name="小明"/>
+    <bean id="daughter" class="com.larscheng.www.pojo.Daughter" p:name="小花"/>
+
+
+    <bean id="son2" class="com.larscheng.www.pojo.Son" p:name="小明2"/>
+    <bean id="daughter2" class="com.larscheng.www.pojo.Daughter" p:name="小花2"/>
+
+    <bean id="liming" class="com.larscheng.www.pojo.AutowiredPerson" p:name="李明"/>
+    <bean id="liming2" class="com.larscheng.www.pojo.ResourcePerson" p:name="李明2"/>
 </beans>

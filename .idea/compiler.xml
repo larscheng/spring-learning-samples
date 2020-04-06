@@ -6,18 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="part3-spring-di" />
-        <module name="part2-spring-ioc-xml" />
-        <module name="part1-spring-ioc-base" />
+        <module name="part7-spring-aop-proxy" />
+        <module name="part10-spring-mybaits" />
+        <module name="part5-spring-annotation-injection" />
+        <module name="part6-spring-javaconfig" />
         <module name="part4-spring-bean-injection" />
+        <module name="part8-spring-aop-xml" />
+        <module name="part1-spring-ioc-base" />
+        <module name="part3-spring-di" />
+        <module name="part9-mybatis" />
+        <module name="part2-spring-ioc-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="part1-spring-ioc-base" target="8" />
-      <module name="part2-spring-ioc-xml" target="8" />
-      <module name="part3-spring-di" target="8" />
-      <module name="part4-spring-bean-injection" target="8" />
-      <module name="spring-learning-samples" target="8" />
+      <module name="part1-spring-ioc-base" target="1.5" />
+      <module name="part10-spring-mybaits" target="8" />
+      <module name="part2-spring-ioc-xml" target="1.5" />
+      <module name="part3-spring-di" target="1.5" />
+      <module name="part4-spring-bean-injection" target="1.5" />
+      <module name="part5-spring-annotation-injection" target="1.5" />
+      <module name="part6-spring-javaconfig" target="1.5" />
+      <module name="part7-spring-aop-proxy" target="1.5" />
+      <module name="part8-spring-aop-xml" target="1.5" />
+      <module name="part9-mybatis" target="8" />
+      <module name="spring-learning-samples" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

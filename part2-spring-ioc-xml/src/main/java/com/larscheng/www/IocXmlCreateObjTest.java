@@ -2,7 +2,6 @@ package com.larscheng.www;
 
 import com.larscheng.www.pojo.Demo1;
 import com.larscheng.www.pojo.Demo2;
-import com.larscheng.www.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

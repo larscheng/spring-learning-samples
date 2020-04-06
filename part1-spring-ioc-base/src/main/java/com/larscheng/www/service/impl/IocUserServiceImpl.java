@@ -1,7 +1,6 @@
 package com.larscheng.www.service.impl;
 
 import com.larscheng.www.dao.UserDao;
-import com.larscheng.www.dao.impl.UserDaoImpl;
 import com.larscheng.www.service.UserService;
 
 /**

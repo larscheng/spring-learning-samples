@@ -1,17 +1,21 @@
 package com.larscheng.www.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import javax.annotation.Resource;
 
 /**
  * @author: larscheng
  * @date: 2020/4/3 下午5:46
- * @description: 注解装配bean
+ * @description: Autowired注解装配bean
  */
 public class AutowiredPerson {
 
     private String name;
 
     @Autowired
+    @Qualifier(value = "son2")
     private Son son;
     @Autowired
     private Daughter daughter;

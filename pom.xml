@@ -13,6 +13,12 @@
         <module>part2-spring-ioc-xml</module>
         <module>part3-spring-di</module>
         <module>part4-spring-bean-injection</module>
+        <module>part5-spring-annotation-injection</module>
+        <module>part6-spring-javaconfig</module>
+        <module>part7-spring-aop-proxy</module>
+        <module>part8-spring-aop-xml</module>
+        <module>part9-mybatis</module>
+        <module>part10-spring-mybaits</module>
     </modules>
 
     <dependencies>

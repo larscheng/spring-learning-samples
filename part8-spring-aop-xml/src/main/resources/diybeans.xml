@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean class="com.larscheng.www.impl.UserServiceImpl" id="userService"/>
+    <bean class="com.larscheng.www.aop.DiyAop" id="diyAop"/>
+
+    <!-- 自定义aop方式 简单方便，但是不能完全操作要执行的方法   -->
+    <aop:config>
+        <aop:aspect ref="diyAop">
+            <aop:pointcut id="diy" expression="execution(* com.larscheng.www.impl.*.*(..))"/>
+            <aop:before method="before" pointcut-ref="diy"/>
+            <aop:after method="after" pointcut-ref="diy"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

@@ -13,19 +13,19 @@
         property：给对象设置属性  name:set方法
      -->
 
-    <bean id="userDaoImpl" class="com.larscheng.www.dao.impl.UserDaoImpl"/>
-    <bean id="userDaoMysqlImpl" class="com.larscheng.www.dao.impl.UserDaoMysqlImpl"/>
-    <bean id="userDaoRedisImpl" class="com.larscheng.www.dao.impl.UserDaoRedisImpl"/>
+    <bean id="userDaoImpl" class="com.larscheng.www.dao.com.larscheng.www.impl.UserDaoImpl"/>
+    <bean id="userDaoMysqlImpl" class="com.larscheng.www.dao.com.larscheng.www.impl.UserDaoMysqlImpl"/>
+    <bean id="userDaoRedisImpl" class="com.larscheng.www.dao.com.larscheng.www.impl.UserDaoRedisImpl"/>
 
-    <bean id="iocUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+    <bean id="iocUserService" class="com.larscheng.www.realstaticdemo.com.larscheng.www.service.com.larscheng.www.impl.IocUserServiceImpl">
         <property name="userDao" ref="userDaoImpl"/>
     </bean>
 
-    <bean id="iocMysqlUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+    <bean id="iocMysqlUserService" class="com.larscheng.www.realstaticdemo.com.larscheng.www.service.com.larscheng.www.impl.IocUserServiceImpl">
         <property name="userDao" ref="userDaoMysqlImpl"/>
     </bean>
 
-    <bean id="iocRedisUserService" class="com.larscheng.www.service.impl.IocUserServiceImpl">
+    <bean id="iocRedisUserService" class="com.larscheng.www.realstaticdemo.com.larscheng.www.service.com.larscheng.www.impl.IocUserServiceImpl">
         <property name="userDao" ref="userDaoRedisImpl"/>
     </bean>
 

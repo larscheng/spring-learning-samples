@@ -3,9 +3,7 @@ package com.larscheng.www;
 import com.larscheng.www.dao.impl.UserDaoImpl;
 import com.larscheng.www.dao.impl.UserDaoMysqlImpl;
 import com.larscheng.www.dao.impl.UserDaoRedisImpl;
-import com.larscheng.www.service.UserService;
 import com.larscheng.www.service.impl.IocUserServiceImpl;
-import com.larscheng.www.service.impl.NormalUserServiceImpl;
 
 /**
  * 描述:
