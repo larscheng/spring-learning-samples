@@ -11,10 +11,10 @@
         <module name="part10-spring-mybatis" />
         <module name="part5-spring-annotation-injection" />
         <module name="part9-mybatis" />
-        <module name="part11-spring-mybaits-transaction" />
         <module name="part4-spring-bean-injection" />
         <module name="part8-spring-aop-xml" />
         <module name="part1-spring-ioc-base" />
+        <module name="part11-spring-mybatis-transaction" />
         <module name="part3-spring-di" />
         <module name="part6-spring-javaconfig" />
         <module name="part2-spring-ioc-xml" />
@@ -24,7 +24,7 @@
       <module name="part1-spring-ioc-base" target="1.5" />
       <module name="part10-spring-mybatis" target="8" />
       <module name="part11-spring-mybaits-demo" target="8" />
-      <module name="part11-spring-mybaits-transaction" target="8" />
+      <module name="part11-spring-mybatis-transaction" target="8" />
       <module name="part2-spring-ioc-xml" target="1.5" />
       <module name="part3-spring-di" target="1.5" />
       <module name="part4-spring-bean-injection" target="1.5" />

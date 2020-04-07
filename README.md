@@ -13,4 +13,4 @@
 - part8-spring-aop-xml : spring中3种方式实现面向切面编程（springAPI\自定义类\注解）
 - part9-mybatis：java集成mybatis的demo
 - part10-spring-mybatis：spring集成mybatis的demo
-- part11-spring-mybaits-transaction: spring集成mybatis并配置声明式事务
+- part11-spring-mybatis-transaction: spring集成mybatis并配置声明式事务

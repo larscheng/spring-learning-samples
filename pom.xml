@@ -19,7 +19,7 @@
         <module>part8-spring-aop-xml</module>
         <module>part9-mybatis</module>
         <module>part10-spring-mybatis</module>
-        <module>part11-spring-mybaits-transaction</module>
+        <module>part11-spring-mybatis-transaction</module>
     </modules>
 
     <dependencies>
