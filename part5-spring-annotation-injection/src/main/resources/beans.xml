@@ -15,7 +15,7 @@
     <context:component-scan base-package="com.larscheng"/>
 
     <!-- 完全由注解代替   -->
-    <!--    <bean id="user" class="com.larscheng.www.pojo.User" scope="singleton">-->
+    <!--    <bean id="user" class="com.larscheng.User" scope="singleton">-->
     <!--        <property name="name" value="lars"/>-->
     <!--    </bean>-->
 

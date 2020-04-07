@@ -20,6 +20,6 @@
     </environments>
 
     <mappers>
-        <mapper class="com.larscheng.www.mapper.UserMapper"/>
+        <mapper class="com.larscheng.UserMapper"/>
     </mappers>
 </configuration>

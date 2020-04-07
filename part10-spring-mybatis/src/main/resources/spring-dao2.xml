@@ -22,13 +22,10 @@
         <property name="mapperLocations" value="classpath*:com/larscheng/www/mapper/*.xml"/>
     </bean>
 
-    <!--    sqlSession-->
-    <bean class="org.mybatis.spring.SqlSessionTemplate" id="sqlSession">
-        <constructor-arg index="0" ref="sqlSessionFactory"/>
-    </bean>
+    <!--    省掉了获取sqlSession-->
 
-    <bean class="com.larscheng.www.mapper.UserMapperImpl" id="userMapper">
-        <property name="sqlSession" ref="sqlSession"/>
+    <bean class="com.larscheng.UserMapperImpl2" id="userMapper2">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 
 </beans>
