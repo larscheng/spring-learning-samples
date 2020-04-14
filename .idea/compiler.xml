@@ -11,6 +11,7 @@
         <module name="part10-spring-mybatis" />
         <module name="part5-spring-annotation-injection" />
         <module name="part9-mybatis" />
+        <module name="spring-mvc-modules" />
         <module name="part4-spring-bean-injection" />
         <module name="part8-spring-aop-xml" />
         <module name="part1-spring-ioc-base" />
@@ -34,6 +35,8 @@
       <module name="part8-spring-aop-xml" target="1.5" />
       <module name="part9-mybatis" target="8" />
       <module name="spring-learning-samples" target="1.5" />
+      <module name="spring-modules" target="1.5" />
+      <module name="spring-mvc-modules" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
