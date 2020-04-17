@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--处理器映射器： 1、根据用户请求的url，处理映射器去寻找该请求所对应的handler（bean/servlet）-->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+
+    <!--处理器适配器： 2、根据上一步拿到的handler，处理适配器开始执行handler，并返回模型和视图-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+
+    <!--视图解析器： 3、接收到返回的模型和视图，开始自动拼接并寻找到该视图，并将模型在该视图中进行渲染，最终浏览器呈现-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--handler-->
+    <bean class="com.larscheng.www.HelloController" id="/hello"/>
+</beans>

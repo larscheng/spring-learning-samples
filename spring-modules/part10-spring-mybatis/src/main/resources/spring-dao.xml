@@ -27,7 +27,7 @@
         <constructor-arg index="0" ref="sqlSessionFactory"/>
     </bean>
 
-    <bean class="com.larscheng.UserMapperImpl" id="userMapper">
+    <bean class="com.larscheng.www.mapper.UserMapperImpl" id="userMapper">
         <property name="sqlSession" ref="sqlSession"/>
     </bean>
 

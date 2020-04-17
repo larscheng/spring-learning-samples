@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/part11-spring-mybaits-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-modules/part5-ssm/pom.xml" />
       </set>
     </option>
   </component>

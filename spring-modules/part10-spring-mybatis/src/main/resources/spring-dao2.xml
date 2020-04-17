@@ -24,7 +24,7 @@
 
     <!--    省掉了获取sqlSession-->
 
-    <bean class="com.larscheng.UserMapperImpl2" id="userMapper2">
+    <bean class="com.larscheng.www.mapper.UserMapperImpl2" id="userMapper2">
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisGeneratorConfiguration">
+    <option name="credentials">
+      <map>
+        <entry key="jdbc:mysql://localhost:3306">
+          <value>
+            <Credential>
+              <option name="username" value="root" />
+            </Credential>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableConfigs">
+      <map>
+        <entry key="books">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="com.larsacheng.www.pojo" />
+              <option name="comment" value="true" />
+              <option name="domainName" value="Books" />
+              <option name="domainPackage" value="com.larsacheng.www.pojo.domain" />
+              <option name="exampleName" value="BooksExample" />
+              <option name="examplePackage" value="com.larsacheng.www.pojo.example" />
+              <option name="examplePostfix" value="Example" />
+              <option name="mapperName" value="BooksMapper" />
+              <option name="mapperPackage" value="com.larsacheng.www.pojo.mapper" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$/spring-mvc-modules/part5-ssm" />
+              <option name="name" value="books" />
+              <option name="primaryKey" value="" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="books" />
+              <option name="useExample" value="true" />
+              <option name="xmlPackage" value="mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
