@@ -12,6 +12,7 @@
         <module>spring-modules</module>
         <module>spring-mvc-modules</module>
         <module>spring-springmvc-mybatis</module>
+        <module>spring-dubbo-sample</module>
     </modules>
 
     <dependencies>

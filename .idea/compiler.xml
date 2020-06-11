@@ -10,22 +10,28 @@
         <module name="part8-spring-aop-xml" />
         <module name="part9-mybatis" />
         <module name="part7-spring-aop-proxy" />
+        <module name="dubbo-api" />
         <module name="spring-springmvc-mybatis" />
         <module name="part3-mvc-modelandview" />
         <module name="part4-mvc-restful" />
         <module name="part1-spring-ioc-base" />
+        <module name="dubbo-provide" />
         <module name="part11-spring-mybatis-transaction" />
         <module name="part2-mvc-annotation" />
         <module name="part6-spring-javaconfig" />
+        <module name="dubbo-consumer" />
+        <module name="part2-spring-ioc-xml" />
         <module name="part4-spring-bean-injection" />
-        <module name="part1-mvc-hello" />
         <module name="part5-spring-annotation-injection" />
+        <module name="part1-mvc-hello" />
         <module name="part10-spring-mybatis" />
         <module name="part3-spring-di" />
-        <module name="part2-spring-ioc-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="dubbo-api" target="1.5" />
+      <module name="dubbo-consumer" target="1.5" />
+      <module name="dubbo-provide" target="1.5" />
       <module name="part1-mvc-hello" target="1.5" />
       <module name="part1-spring-ioc-base" target="1.5" />
       <module name="part10-spring-mybatis" target="8" />
@@ -43,6 +49,8 @@
       <module name="part7-spring-aop-proxy" target="1.5" />
       <module name="part8-spring-aop-xml" target="1.5" />
       <module name="part9-mybatis" target="8" />
+      <module name="spring-dubbo-sample" target="1.5" />
+      <module name="spring-dubbo-xml" target="1.5" />
       <module name="spring-learning-samples" target="1.5" />
       <module name="spring-modules" target="1.5" />
       <module name="spring-mvc-modules" target="1.5" />
